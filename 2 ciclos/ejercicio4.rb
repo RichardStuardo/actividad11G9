@@ -8,9 +8,9 @@
 # </ul>
 
 a = 5
-b = ''
-
-a.times do
-  b = '<li> hola </li>'
+b = '<li> hola </li>'
+puts '<ul>'
+a.times do |i|
+  puts  "#{b}"
 end
-
+puts '</ul>'
